@@ -1,3 +1,4 @@
+import pageRoutes from './router.config';
 
 // ref: https://umijs.org/config/
 export default {
@@ -7,7 +8,7 @@ export default {
       antd: true,
       dva: true,
       dynamicImport: false,
-      title: 'app',
+      title: 'demo001',
       dll: false,
       routes: {
         exclude: [],
@@ -15,4 +16,7 @@ export default {
       hardSource: false,
     }],
   ],
+  // publicPath:'./',
+  // 路由配置
+  routes: pageRoutes,
 }
